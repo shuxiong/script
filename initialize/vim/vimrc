@@ -1,0 +1,41 @@
+" my local setting
+" "File encoding
+set encoding=utf-8
+set fileencoding=utf-8
+
+"syntax highlight
+syntax enable
+syntax on
+
+"colorscheme
+colorscheme desert
+
+"Here to set line number
+set nu
+
+"Here to set indent
+set autoindent
+set cindent
+
+"Here to set tab
+set tabstop=4
+"set softtabstop=4
+set shiftwidth=4
+
+"Here to set using tab charecter
+"set expandtab
+
+"Here to set hightlight search result
+set hlsearch
+
+"Here to set show bracket match
+set showmatch
+
+"Here to set instant search
+set incsearch
+
+"Here to set ignore case for search
+set ignorecase
+
+"Here to set status lines of each window
+"set ruler
