@@ -39,3 +39,6 @@ set ignorecase
 
 "Here to set status lines of each window
 "set ruler
+
+"Here to set line indicator, 80 character
+set cc=80
