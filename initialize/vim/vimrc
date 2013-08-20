@@ -42,3 +42,6 @@ set ignorecase
 
 "Here to set line indicator, 80 character
 set cc=80
+
+"Here to set no backup
+set nobackup
