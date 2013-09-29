@@ -8,3 +8,5 @@
 	br = branch
 [core]
 	editor = vim
+[color]
+	ui = auto
