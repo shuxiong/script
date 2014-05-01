@@ -1,11 +1,13 @@
 #!/bin/sh
 
+basePath=https://raw.githubusercontent.com/shuxiong/script/master/initialize
+
 # install git & my local git config
-wget -O - https://raw.github.com/shuxiong/script/master/initialize/git/git.sh | sh
+wget -O - $basePath/git/git.sh | sh
 
 # install vim & my local vim config
-wget -O - https://raw.github.com/shuxiong/script/master/initialize/vim/vim.sh | sh
+wget -O - $basePath/vim/vim.sh | sh
 
 # some software
-wget -O - https://raw.github.com/shuxiong/script/master/initialize/software/software.sh | sh
+wget -O - $basePath/software/software.sh | sh
 

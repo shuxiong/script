@@ -1,4 +1,6 @@
 #!/bin/sh
 
+basePath=https://raw.githubusercontent.com/shuxiong/script/master/initialize
+
 sudo apt-get install -y git
-wget -O - https://raw.github.com/shuxiong/script/master/initialize/git/gitconfig >>~/.gitconfig
+wget -O - $basePath/git/gitconfig >>~/.gitconfig
